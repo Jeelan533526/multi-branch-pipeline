@@ -41,6 +41,12 @@ pipeline {
           }
         }
 
+        stage('test1') {
+          steps {
+            sh 'ls -l'
+          }
+        }
+
       }
     }
 
