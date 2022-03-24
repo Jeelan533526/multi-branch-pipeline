@@ -43,7 +43,8 @@ pipeline {
 
         stage('teststage1') {
           steps {
-            sh 'echo "welcome"'
+            sh '''#!/bin/bash
+echo "welcome"'''
           }
         }
 
