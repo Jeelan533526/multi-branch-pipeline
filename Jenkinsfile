@@ -43,7 +43,8 @@ pipeline {
 
         stage('test1') {
           steps {
-            sh 'ls -l'
+            sh '''ls -l
+sleep 20'''
           }
         }
 
