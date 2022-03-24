@@ -43,8 +43,7 @@ pipeline {
 
         stage('teststage1') {
           steps {
-            sh '''#!/bin/bash
-echo "welcome"'''
+            sh 'ls -l'
           }
         }
 
